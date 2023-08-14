@@ -26,12 +26,12 @@ const quizData = [
     },
     {
         question: "Quelle est la capitale du Nigeria",
-        choices: ["Lagos, "Abu Dhabi, "Abuja", "Yamoussoukro"],
+        choices: ["Lagos", "Abu Dhabi", "Abuja", "Yamoussoukro"],
         answer: "Abuja"
     },
     {
         question: "Quelle est la capitale de la Guinée équatoriale",
-        choices: ["Bamako, "Lamabo", "Malabo", "Bamalo"],
+        choices: ["Bamako", "Lamabo", "Malabo", "Bamalo"],
         answer: "Malabo"
     },
     {
@@ -51,7 +51,7 @@ const quizData = [
     },
     {
         question: "Quelle est la capitale du Libéria",
-        choices: ["Liberio", "Monrovia, "Maseru", "Maputo"],
+        choices: ["Liberio", "Monrovia", "Maseru", "Maputo"],
         answer: "Monrovia"
     }
 ];
@@ -91,7 +91,7 @@ function showQuestion() {
 
 function showScore() {
     container.innerHTML = "";
-    scoreEl.textContent = `petit genie humm   ${score} sur ${quizData.length}!`;
+    scoreEl.textContent =  ${score} sur ${quizData.length}!`;
     container.appendChild(scoreEl);
 }
 
