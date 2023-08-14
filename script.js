@@ -1,29 +1,59 @@
 const quizData = [
     {
-        question: "Quelle est la superficie du continent Camerounais ?",
-        choices: ["475 442 km2", "400 442 km2", "475 442 m2", "442 475 km2"],
-        answer: "475 442 km2"
+        question: "Quelle est la capitale du Mali",
+        choices: ["Yaoundé", "Abidjan", "Niamey", "Bamako"],
+        answer: "Bamako"
     },
     {
-        question: "Combien d'annees Paul Biya a fait au pouvoir du continent",
-        choices: ["42", "41", "21", "45"],
-        answer: "41"
+        question: "Quelle est la capitale du Ghana",
+        choices: ["Accra", "Asmara", "Lagos", "Abuja"],
+        answer: "Accra"
     },
     {
-        question: "quel autre nom donne t'on au mont Cameroun",
-        choices: ["char de dieu", "char de guerre", "mont continenal", "rio dos camaroes"],
-        answer: "char de dieu"
+        question: "Quelle est la capitale du Burkina Faso",
+        choices: ["Addis Abeba", "Abidjan", "Ouagadougou", "Banjul"],
+        answer: "Ouagadougou"
     },
-	{
-		question: "Combien de president a deja eu le continent Camerounais depuis son independance",
-        choices: ["5", "2", "1", "7"],
-        answer: "2"
-	},
-	{
-		question: "La prochaine election presidentielle au continent c'est en quelle annee ",
-        choices: ["2025", "2024", "2027", "206"],
-        answer: "2025"
-	}
+    {
+        question: "Quelle est la capitale de la Sierra Leone ",
+        choices: ["Free-town", "Lilongwe", "Free-City", "Free-Country"],
+        answer: "Free-town"
+    },
+    {
+        question: "Quelle est la capitale du Maroc",
+        choices: ["Le caire", "Tripoli", "Rabah", "Rabat"],
+        answer: "Rabat"
+    },
+    {
+        question: "Quelle est la capitale du Nigeria",
+        choices: ["Lagos, "Abu Dhabi, "Abuja", "Yamoussoukro"],
+        answer: "Abuja"
+    },
+    {
+        question: "Quelle est la capitale de la Guinée équatoriale",
+        choices: ["Bamako, "Lamabo", "Malabo", "Bamalo"],
+        answer: "Malabo"
+    },
+    {
+        question: "Quelle est la capitale du Rwanda",
+        choices: ["Kigali", "Kagali", "Porto Novo", "Port louis"],
+        answer: "Kigali"
+    },
+    {
+        question: "Quelle est la capitale du Niger",
+        choices: ["Libreville", "Abuja", "Niamey", "Sao Tomé"],
+        answer: "Niamey"
+    },
+    {
+        question: "Quelle est la toute première capitale du Cameroun",
+        choices: ["Yaoundé", "Douala", "Buea", "Limbe"],
+        answer: "Buea"
+    },
+    {
+        question: "Quelle est la capitale du Libéria",
+        choices: ["Liberio", "Monrovia, "Maseru", "Maputo"],
+        answer: "Monrovia"
+    }
 ];
 
 const container = document.querySelector(".container");
