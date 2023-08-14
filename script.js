@@ -91,7 +91,7 @@ function showQuestion() {
 
 function showScore() {
     container.innerHTML = "";
-    scoreEl.textContent =  ${score} sur ${quizData.length}!`;
+    scoreEl.textContent = `${score} sur ${quizData.length}!`;
     container.appendChild(scoreEl);
 }
 
